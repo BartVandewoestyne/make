@@ -20,6 +20,10 @@
 #       CPPFLAGS: Extra flags to give to the C preprocessor
 #       LDFLAGS: Extra flags to give to compilers when they are supposed to
 #         invoke the linker
+#
+# References:
+#
+#   - https://makefiletutorial.com/#implicit-rules
 
 CC = gcc # Flag for implicit rules
 CFLAGS = -g # Flag for implicit rules. Turn on debug info
