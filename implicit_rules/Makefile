@@ -24,6 +24,14 @@
 # References:
 #
 #   - https://makefiletutorial.com/#implicit-rules
+#
+#   - The Open Group Base Specifications Issue 7, 2018 edition
+#     IEEE Std 1003.1-2017 (Revision of IEEE Std 1003.1-2008)
+#     Default Rules
+#     https://pubs.opengroup.org/onlinepubs/9699919799/utilities/make.html
+#
+#   - GNU make implicit rules:
+#     https://www.gnu.org/software/make/manual/make.html#Catalogue-of-Rules
 
 CC = gcc # Flag for implicit rules
 CFLAGS = -g # Flag for implicit rules. Turn on debug info
