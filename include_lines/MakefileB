@@ -1,0 +1,4 @@
+include common.mk
+
+print_b:
+	echo "Hello from MakefileB"
