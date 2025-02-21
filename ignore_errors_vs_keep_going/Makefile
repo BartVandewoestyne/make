@@ -4,7 +4,7 @@
 #
 #     => The all target is still run here, because make believes that the
 #        fail target actually succeeded.  It's equivalen to adding a -
-#        at  the beginning of every recipe line.
+#        at the beginning of every recipe line.
 #
 #   make -k, --keep-going
 #
